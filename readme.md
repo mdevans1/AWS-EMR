@@ -1,4 +1,4 @@
-#AWS EMR Pig Example
+# AWS EMR Pig Example
 
 This example is based on the official Amazon EMR tutorial. The information has been updated to work with EMR versions 5.x+
 
