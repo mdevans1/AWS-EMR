@@ -1,4 +1,11 @@
-# Submitting a Pig job
+## Upload the AWS Example Pig Script
+
+1. Download aws.example.pig from this repository
+
+2. Upload the script to your S3 bucket
+
+
+## Submitting a Pig job
 
 1. Open the Amazon EMR console at [https://console.aws.amazon.com/elasticmapreduce/](https://console.aws.amazon.com/elasticmapreduce/).
 
@@ -8,19 +15,19 @@
 
 4. In the Add Step dialog:
 
-  * For Step type, choose Pig program.
+   * For Step type, choose Pig program.
 
-  * For Name, accept the default name (Pig program) or type a new name.
+   * For Name, accept the default name (Pig program) or type a new name.
 
-  * For Script S3 location, type the location of the Pig script. For example: s3://your-s3-bucket/aws.example.pig.
+   * For Script S3 location, type the location of the Pig script. For example: s3://your-s3-bucket/aws.example.pig.
 
-  * For Input S3 location, type the location of the input data. For example: s3://elasticmapreduce/samples/pig-apache/input.
+   * For Input S3 location, type the location of the input data. For example: s3://elasticmapreduce/samples/pig-apache/input.
 
-  * For Output S3 location, type or browse to the name of your Amazon S3 output bucket. For example: s3://your-s3-bucket/
+   * For Output S3 location, type or browse to the name of your Amazon S3 output bucket. For example: s3://your-s3-bucket/
 
-  * For Arguments, leave the field blank.
+   * For Arguments, leave the field blank.
 
-  * For Action on failure, accept the default option (Continue).
+   * For Action on failure, accept the default option (Continue).
 
 5. Choose Add. The step appears in the console with a status of Pending.
 
